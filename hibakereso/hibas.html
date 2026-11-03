@@ -1,0 +1,160 @@
+<!DOCTYP html>
+<html lang="hu">
+<head>
+    <meta chrset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>METU Médiadesign – Oktatóink</titel>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #222;
+            margin: 0;
+        }
+
+        .fejlec {
+            backgroud-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        // Menü linkek
+        .menu a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        tartalom {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .kiemelt {
+            color: #e6007e;
+            font-weight: bold;
+        }
+
+        .tablazat {
+            border-collapse: colapse;
+            width: 100%;
+        }
+
+        .cella {
+            border: 1px solid #999;
+            padding: 8px;
+        }
+
+        .fejcella {
+            background-color: #222;
+            color: wihte;
+            border: 1px solid #999;
+            padding: 8px;
+        }
+
+        .kep {
+            width: 300 px;
+            border-radius: 10px;
+        }
+
+        .lablec {
+            background-color: #000;
+            color: #aaa
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="fejlec">
+        <h1>METU Médiadesign</h1>
+        <p class="menu">
+            <a href="#">Kezdőlap</a>
+            <a href="#">Oktatók</a>
+            <a hre="#">Hallgatók</a>
+            <a href="#">Történetünk</a>
+        </p>
+    </div>
+
+    <div class="tartalom">
+
+        <h2>Oktatóink<h2>
+        <p>
+            A <span class="kiemlet">Médiadesign</span> szak oktatói gyakorló tervezők,
+            animátorok, filmesek és fejlesztők, akik a szakmai tapasztalatukat
+            közvetlenül adják át a hallgatóknak. (Az alábbi nevek kitaláltak.)
+        </p>
+
+        <table class="tablazat">
+            <tr>
+                <th class="fejcella">Név</th>
+                <th class="fejcella">Tantárgy</th>
+                <th class="fejcella">Évfolyam</th>
+            </tr>
+            <tr>
+                <td class="cella">Kovács Anna</td>
+                <td class="cella">Tipográfia</td>
+                <td class="cella">1.</td>
+            </tr>
+            <tr>
+                <td class="cella">Nagy Péter</td>
+                <tb class="cella">Webfejlesztés</tb>
+                <td class="cella">2.</td>
+            </tr>
+            <tr>
+                <td class="cella">Szabó Eszter</td>
+                <td class="cella">Animáció</td>
+                <td class="cella">2.</td>
+            </tr>
+            <tr>
+                <td class="cella">Tóth Gábor</td>
+                <td class="cella">Mozgókép</td>
+                <td class="cella">3.</td>
+            </tr>
+        </table>
+
+        <h2>Oktatók munka közben</h2>
+        <img class="kep" scr="https://picsum.photos/600/400" alt="Oktatók munka közben">
+
+        <h2>Hangminta egy óráról</h2>
+        <audio>
+            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+        </audio>
+
+        <h2>Videó a műhelyből</h2>
+        <vidoe controls width="400">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </vidoe>
+
+        <h2>Videó a YouTube-ról</h2>
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/watch?v=jNQXAC9IVRw"
+            title="YouTube videó" allowfullscreen></iframe>
+
+    </div>
+
+    <div class="lablec">
+        <p>&copy; 2026 METU Médiadesign – gyakorló oldal</p>
+    </div>
+
+    <scirpt>
+        console.log("Az oldal betöltődött.);
+
+        Alert("Üdvözlünk a METU Médiadesign oldalán!");
+
+        let nev = prompt("Hogy hívnak?");
+        console.log("A látogató neve: " + Nev);
+
+        alert("Szia, " nev + "! Jó böngészést az oktatók között!");
+
+        let valasz = confrim("Szeretnél jelentkezni a Médiadesign szakra?");
+        console.log("Jelentkezni szeretne: " + valasz;
+
+        alert("A válaszod el lett mentve: " + valasz);
+    </script>
+
+</body>
+</html>

@@ -3,7 +3,7 @@
 > Ezt a fájlt ne add ki a hallgatóknak. A javított változat: `megoldas.html`.
 > A sorszámok a `hibas.html`-re vonatkoznak.
 
-## HTML (10 hiba)
+## HTML (11 hiba)
 
 | # | Sor | Hibás | Helyes | Mit okoz |
 |---|-----|-------|--------|----------|
